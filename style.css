@@ -6,14 +6,15 @@ input:valid {
 }
 
 #main{
-    background-color: aquamarine;
+    background-color: cadetblue;
     padding: 20px;
 }
 
 #content{
     display: flex;
     background-color: pink;
-    border-top-color: lightblue;
+    border: 3px solid blue;
+/*    border-top-color: lightblue;*/
     justify-content: center;
     margin-left: 29px;
     margin-right: 29px;

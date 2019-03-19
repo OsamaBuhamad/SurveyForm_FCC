@@ -1,0 +1,23 @@
+input:required:invalid {
+    border-color: #C00000;}
+
+input:valid {
+  border: 2px solid black;
+}
+
+#main{
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+#content{
+    display: flex;
+    background-color: pink;
+    border-top-color: lightblue;
+    justify-content: center;
+    margin-left: 29px;
+    margin-right: 29px;
+    margin-bottom: 50px;
+    margin-top: 12px;
+    padding: 50px;
+}

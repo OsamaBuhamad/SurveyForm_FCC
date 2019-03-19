@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <main id="main">
+  <head>
+    <meta charset="utf-8">
+    
+    <link rel="stylesheet" href="style.css">
+    <<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+</script>  
+    <title id="surveyForm">surveyForm</title>
+      <h1 id="title">Survey Form Page</h1>
+        <p id="description">This is simple page to make a survey form</p>
+  </head>
+    <div id="content">
+  <body>
+      
+      
+      <form id="survey-form">
+          <label id="name-label" for="name">Name  </label>
+          <input id="name" type="text" title="Name" placeholder="Name" autocomplete="off" required><br> <br>
+          
+          <label id="email-label" for="email">Email  </label>
+          <input id="email" type="email" title="Email" pattern=".+@.+.com" required placeholder="Email Address" autocomplete="off"> <br> <br> 
+          
+          <label id="number-label" for="number">Number:</label>
+          <input type="number" id="number" title="Number" min="5" max="1000" placeholder="#" autocomplete="off"> <br> <br>
+          
+          
+          <label id="dropdown-label" for="dropdown">Your Role?</label>
+          <select id="dropdown">
+              <option value="student">Student</option>
+              <option value="chef">Chef</option>
+              <option value="developer">Developer</option>
+              <option value="driver">Driver</option>
+          
+          </select>
+           <br><br>
+          <label for="meals">How many meals do yo eat per day?</label><br>
+          <input type="radio" name="meals" value="one">1<br>
+          <input type="radio" name="meals" value="two">2<br>
+          <input type="radio" name="meals" value="three">3<br>
+          <input type="radio" name="meals" value="four">4<br>
+          <input type="radio" name="meals" value="eight">8!!!!!!!!!<br>
+          <br><br>
+          <label for="favFood">What is your favorite food</label><br>
+          <input type="checkbox" id="favFood" value="Pasta">Pasta<br>
+          <input type="checkbox" id="favFood" value="Sushi">Sushi<br>
+          <input type="checkbox" id="favFood" value="Machboos">Machboos!!!<br>
+          
+          <br><br>
+          
+          
+          <textarea rows="4" column="50" id="suggest">Please Give us any comments you have:</textarea>
+          <br><br>
+          <button id="submit">Submit</button>
+      </form>
+  </body>
+        </div>
+    </main>
+</html>
+
